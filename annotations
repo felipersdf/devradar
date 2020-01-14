@@ -1,0 +1,11 @@
+
+Métodos HTTP: GET, POST, PUT, DELETE
+
+
+Tipos de parametros:
+
+Query params: req.query (Filtros, ordenação, paginação) 
+Route params: req.params(Identificar um recurso na alteração ou remoção)
+Body: req.body (Dados para criação ou alteração de um registro)
+
+
