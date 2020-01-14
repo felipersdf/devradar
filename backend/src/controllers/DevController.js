@@ -41,11 +41,41 @@ module.exports = {
         return res.json(dev);
     },
 
-    async update(){
+    async update(req, resp) {
 
+
+        const { id } = req.query;
+
+        const { github_username, techs, latitude, longitude } = req.body;
+
+        const apiResponse = await axios.get(`https://api.github.com/users/${github_username}`);
+
+        const { avatar_url, bio } = apiResponse.data;
+
+        const techsArray = parseStringAsArray(techs);
+
+        const location = {
+            type: 'Point',
+            coordinates: [longitude, latitude],
+        };
+
+        dev = await Dev.findByIdAndUpdate({ _id: id }, {
+            avatar_url,
+            bio,
+            techs: techsArray,
+            location
+        });
+
+        return resp.json(dev);
     },
 
-    async destroy(){
+    async destroy(req, resp) {
+
+        const { id } = req.query;
+
+        dev = await Dev.findByIdAndDelete({ _id: id });
+
+        return resp.json('Dev excluido com sucesso!');
 
     },
 };
