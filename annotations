@@ -9,3 +9,9 @@ Route params: req.params(Identificar um recurso na alteração ou remoção)
 Body: req.body (Dados para criação ou alteração de um registro)
 
 
+-------------------------REACT
+
+Compomente: Bloco isolado de HTML/CSS/JavaScript o qual não interfere no restante da aplicação
+Propriedade: Informações que um componente PAI passa para o componente filho (atributos)
+Estado: Informações mantidas pelo componente (Lembrar: imutabilidade)
+
