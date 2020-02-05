@@ -52,7 +52,7 @@ Estas foram as tecnologias utilizadas nesse projeto:
 ### Iniciando o app mobile
 
 1. Vá para a pasta do mobile: `cd mobile`
-2. Use `react-native run-android` (or `run-ios` se você possuir um iOs) para iniciar o aplicativo mobile
+2. Use `react-native run-android` (ou `run-ios` se você possuir um iOs) para iniciar o aplicativo mobile
 
 Nota: Se você escolher rodar no emulador android, você precisa iniciar o emulador antes de utilizar o comando `run-android`.
 
