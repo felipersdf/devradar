@@ -14,7 +14,7 @@ DevRadar
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipersdf/GoStack?">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipersdf/devradar?">
 
   <a href="https://github.com/felipersdf">
     <img alt="Made by Felipe Rodrigues" src="https://img.shields.io/badge/made%20by-Felipe Rodrigues-%2304D361">
